@@ -1,1 +1,3 @@
 # MAUS-kpv
+
+We would like to be able to use the tools developed in the [Bavarian Archive for Speech Signals](http://www.bas.uni-muenchen.de/Bas/BasHomeeng.html) with Komi data, and this repository contains documentation and data related to this work. In case you have questions, please contact Niko Partanen. This work is connected to the [Kone Foundation](http://www.koneensaatio.fi/en/) funded project [Language Documentation meets Language Technology](https://langdoc.github.io/IKDP-2/)
