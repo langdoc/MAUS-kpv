@@ -94,3 +94,6 @@ $CONS$ё;.' o
 о;o
 
 # Still missing: dialectal long vowels, vowel combinations etc.
+# Also consonant combinations have to be dealt with, especially
+# with palatals where they would now come out as тть > tt' instead
+# of correct t't'.
