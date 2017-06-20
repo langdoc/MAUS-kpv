@@ -1,0 +1,96 @@
+# In Komi these are usually palatals, not palatalized
+# as in Russian, but in principle there is variation
+# also in this as many Russian loanwords are pronounced
+# in more Russian manner. I don't know if more adequate
+# SAMPA notation would be t' or t\, for example.
+
+set CONS т;t
+set CONS д;d
+set CONS с;s
+set CONS з;z
+set CONS л;l
+set CONS н;n
+$CONS$и;.' i
+
+set CONS т;t
+set CONS д;d
+set CONS с;s
+set CONS з;z
+set CONS л;l
+set CONS н;n
+$CONS$е;.' e
+
+set CONS т;t
+set CONS д;d
+set CONS с;s
+set CONS з;z
+set CONS л;l
+set CONS н;n
+$CONS$я;.' a
+
+set CONS т;t
+set CONS д;d
+set CONS с;s
+set CONS з;z
+set CONS л;l
+set CONS н;n
+$CONS$ю;.' u
+
+set CONS т;t
+set CONS д;d
+set CONS с;s
+set CONS з;z
+set CONS л;l
+set CONS н;n
+$CONS$ё;.' o
+
+# The scheme above is now certainly missing some cases,
+# but I hope it provides enough information to show the
+# basic idea. The cases like ть$ should be mapped to t',
+# so word final palatals are not treated now correctly.
+# One problem is also that although one can describe the
+# basic Komi phonology this way, in reality also Russian
+# orthographic conventions surface occasionally, cases like
+# *сентябь* could be pronounced as s'ent'abr' or s'ent'abr.
+
+# Palatals
+
+т;t
+д;d
+с;s
+з;z
+л;l
+н;n
+
+# Non-palatals
+
+б;b
+в;v
+дж;d Z
+дз;d Z '
+ж;Z
+к;k
+м;m
+п;n
+р;p
+тш;t S
+ф;f
+х;x
+ц;t s
+ч;t s '
+ш;S
+щ;S ' :
+
+# Vowels
+
+и;i
+і;i
+е;e
+э;e
+ы;1
+ӧ;@
+а;a
+у;u
+о;o
+
+# Still missing: dialectal long vowels, vowel combinations etc.
