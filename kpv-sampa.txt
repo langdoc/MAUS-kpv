@@ -10,7 +10,7 @@ set CONS с;s
 set CONS з;z
 set CONS л;l
 set CONS н;n
-$CONS$и;.' i
+$CONS$и;._j i
 
 set CONS т;t
 set CONS д;d
@@ -18,7 +18,7 @@ set CONS с;s
 set CONS з;z
 set CONS л;l
 set CONS н;n
-$CONS$е;.' e
+$CONS$е;._j e
 
 set CONS т;t
 set CONS д;d
@@ -55,6 +55,13 @@ $CONS$ё;._j o
 
 # Palatals
 
+ть;t_j
+дь;d_j
+сь;s_j
+зь;z_j
+ль;l_j
+нь;n_j
+
 т;t
 д;d
 с;s
@@ -67,12 +74,14 @@ $CONS$ё;._j o
 б;b
 в;v
 дж;d Z
-дз;d Z_j
+дз;d z_j
 ж;Z
 к;k
+г;g
+й;j
 м;m
-п;n
-р;p
+п;p
+р;r
 тш;t S
 ф;f
 х;x
@@ -92,6 +101,12 @@ $CONS$ё;._j o
 а;a
 у;u
 о;o
+
+и;j a
+е;j e
+я;j a
+ю;j u
+ё;j o
 
 # Still missing: dialectal long vowels, vowel combinations etc.
 # Also consonant combinations have to be dealt with, especially
