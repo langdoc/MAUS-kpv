@@ -26,7 +26,7 @@ set CONS с;s
 set CONS з;z
 set CONS л;l
 set CONS н;n
-$CONS$я;.' a
+$CONS$я;._j a
 
 set CONS т;t
 set CONS д;d
@@ -34,7 +34,7 @@ set CONS с;s
 set CONS з;z
 set CONS л;l
 set CONS н;n
-$CONS$ю;.' u
+$CONS$ю;._j u
 
 set CONS т;t
 set CONS д;d
@@ -42,7 +42,7 @@ set CONS с;s
 set CONS з;z
 set CONS л;l
 set CONS н;n
-$CONS$ё;.' o
+$CONS$ё;._j o
 
 # The scheme above is now certainly missing some cases,
 # but I hope it provides enough information to show the
@@ -67,7 +67,7 @@ $CONS$ё;.' o
 б;b
 в;v
 дж;d Z
-дз;d Z '
+дз;d Z_j
 ж;Z
 к;k
 м;m
@@ -77,9 +77,9 @@ $CONS$ё;.' o
 ф;f
 х;x
 ц;t s
-ч;t s '
+ч;t s_j
 ш;S
-щ;S ' :
+щ;S_j :
 
 # Vowels
 
